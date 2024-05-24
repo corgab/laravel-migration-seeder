@@ -11,6 +11,7 @@
 <body>
 
   {{-- header --}}
+  <h1 class="text-center my-5">TRENI</h1>
   
   @yield('content')
 
