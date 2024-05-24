@@ -28,7 +28,7 @@
 
                     @if ($train->in_orario === 1 && $train->cancellato === 0 )
                         <h1>il treno è in orario</h1>
-                    @elseif ($train->in_orario === 0 && $train->cancellato === 1)
+                    @elseif ($train->cancellato === 1)
                         <h1>il treno è stato cancellato</h1>
                     @else
                     <h1>Il treno non è in orario</h1>
